@@ -47,7 +47,7 @@ def call5(String artifactsPath) {
 
 
 def call6(String greet){
-     sh "
+     sh """
      echo "Hello ${greet} welcome to jenkins - SHRD lib"
-     "
+     """
 }
